@@ -1,0 +1,225 @@
+﻿*{
+	font-family:		'Open Sans',  Calibri;
+	font-size:100%;
+	font-weight:600;
+	line-height:1.875em;
+	word-spacing:normal;
+}
+
+h1{
+	font-size:		1.625em;
+	font-weight:	600;
+	margin:			0 auto;
+	padding:		3.0769230769230769230769230769231em 0 0 0;
+	width:			600px;
+	text-align:		center;
+}
+
+h2{
+	font-size:1.25em;
+	font-weight:600;
+	text-align:left;
+	margin:0 auto;
+	padding:1.5em 0 0 0;
+	width:660px;
+	text-align:center;
+}
+
+h6{
+	width: 100%;
+	padding:0.83333333333333333333333333333333em 0;
+	line-height: 1em;
+	font-size:11px;
+	font-weight:lighter;
+}
+
+.textShadow{
+	text-shadow: 	0px 1px 0px #efdf53;
+}
+
+#subscriptionPanel .size {
+   font-size:		1em;
+   line-height:     1.25em;
+   margin:			0;
+   padding:			0 0 0.625em 0;
+}
+
+.white {
+   color:			#eae8e8;
+}
+
+.text_color {
+   color:			#342601;
+}
+
+.bold {
+    font-size:900
+}
+
+#footerText{
+	font-size:	10px;
+	width:		500px;
+	margin:		0 auto;
+	text-align:	center;
+	padding:	50px 0px 0px 0px;
+	color:		#030303;
+}
+
+.socialMediaLinks span{
+	font-size:10px;
+	color:white;
+}
+
+p {
+	font-size:			14px;
+	margin: 			0 auto;
+	text-align:			justify;
+	padding: 			10px 0px;
+	padding:			30px 0px 0px 0px;
+	width:				500px;
+}
+
+.displayArea {
+    width:440px;
+    font-size:10px;
+    text-align:justify;
+    line-height:0.75em;
+    margin:0 0 0 20px;
+    padding:0;
+}
+
+.modalDialogText {
+	font-size:			12px;
+	line-height:		1.25em;
+	margin: 			0 auto;
+	padding: 			10px 0px;
+	padding:			30px 0px 0px 0px;
+	width:				300px;
+}
+
+.ui-dialog-title {
+    font-size:12px;
+    font-weight:bold;
+}
+
+.ui-button-text {
+    font-size:12px;
+    outline:none;
+}
+
+/* Styles the links */
+
+a{
+	color:#000;
+	text-decoration: none;
+	-moz-transition: 0.5s color linear !important;
+	-webkit-transition: 0.5s color linear !important;
+	transition: 0.5s color linear !important;
+}
+
+.topLinks li {
+    font-size:12px;
+}
+ 
+.topLinks a { 
+	color: #f4c43c;
+}
+
+.topLinks li a:hover{
+	color: #fff;
+	text-decoration:underline;
+}
+
+#subscriptionPanel a {
+	color: #f4c43c;
+	text-decoration:none;
+}
+
+#subscriptionPanel a:hover {
+	color: #fff;
+	text-decoration:underline;
+
+}
+
+/* Begin Form Elements */
+
+	fieldset {  
+		margin: 			10px 0 0 0;  
+		padding: 			0;
+		border:				0px white solid;
+		background: 		transparent;
+	}
+	
+	fieldset ol {  
+		padding: 			0; 
+		list-style: 		none;
+		margin:				0 auto;
+	}
+	
+	fieldset li {  
+		position:			relative;
+		padding:         	0;
+		font-size:			10px;
+	}
+
+	.emailadd {
+		position:				relative;
+		float:					left;
+		clear:					left;
+		width:					327px;
+		margin:			        0 6px 0 0;
+		padding:				8px 5px 8px 20px;
+		border:					solid 1px #737373; 
+		color:					#d6d6d6; 
+		background:				#737373;
+		font-size:				2em;
+		font-weight:			lighter;
+		height:					30px;
+	}
+	
+	.emailadd:active {
+		border:					solid 1px #737373; 
+	}
+	
+	.emailadd:focus 
+	{
+	    outline:                none;
+	    border:					solid 1px #737373; 
+	}
+	
+	.btn:focus
+	{
+	    outline:                none;
+	}
+	
+	.ui-tooltip {
+	    font-size:              12px;
+	}
+	
+	.style {
+		box-shadow-top:			inset 0 0 20px #000000;
+	}
+	
+	.width {
+		margin:0 auto;
+	    padding:10px 0px 0px 0px;
+	    width:660px;
+	}
+	
+	.center{
+	    text-align:center;
+	}
+	
+	.justify {
+		text-align:justify;
+	
+	}
+	
+	.tooltip p{
+        margin:0;
+        padding:0;
+        color:#fff;
+        background-color:#222;
+        padding:2px 7px;
+        font-size:12px;
+}
