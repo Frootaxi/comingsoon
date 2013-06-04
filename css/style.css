@@ -21,7 +21,7 @@ body {
 .topcon {
 	margin:0px auto;
 	padding: 0px;
-	width: 100%;
+	width: 850px;
 	background: black url('../images/black_bg_noise.png') repeat;
 }
 
@@ -60,10 +60,10 @@ body {
 }
 
 #subscriptionPanel{
-		width:				460px;
+		width:				490px;
 		height:				100%;
-		margin:				40px auto 0 auto;
-		padding:			5px 0px 15px 0px;
+		margin:				20px auto 0 auto;
+		padding:			5px 5px 15px 5px;
 }
 
 .btn {
@@ -78,14 +78,13 @@ body {
 
         color:					#fdfaf3;
 		font-size:				16px;
-		font-weight:			lighter;
+		font-weight:			bold;
 		text-shadow:			-1px -1px 0 #444;
-		line-height:					35px;
+		height:					48px;
 }
 
 .display { 
         /* fallback */ 
-	    height:			100%;
 	    background-color: #f4c43c;
 	    background:url('../images/background_img.png') repeat-x; 
 	    background-image:linear-gradient(top, #f4c43c, #eda121);
@@ -108,7 +107,6 @@ body {
 
 .btn:hover {
 		/* fallback */ 
-		height:				100%;
 		background-color: 	#f3e6cd;
 		background:			url('../images/background_img1.png') repeat-x;
 		background-image:	linear-gradient(top, #f4b53c, #de780a);
